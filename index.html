@@ -9,16 +9,35 @@
 </head>
 <body>
 
-   <div id="mount-point">
-      <div id="intro"></div>
+   <div id="intro">
    </div>
+
+   <div id="other"></div>
 
    <script type="text/jsx">
       /** @jsx React.DOM */
-      React.render(
+
+      /*React.render(
          <h1>Hello, Reactjs</h1>,
          document.getElementById('intro')
+      );*/
+
+      React.render(
+         React.DOM.h1(null, 'Hello, Matthias'), document.querySelector('#intro')
       );
+
+      var Jero = React.createClass({
+         render: function(){
+            return (<h1>Jero</h1>);
+         }
+      });
+
+      React.render(
+         <Jero/>,
+         document.querySelector('#other')
+      );
+
+
    </script>
 
 </body>
