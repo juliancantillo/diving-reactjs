@@ -1,0 +1,36 @@
+{
+  "name": "diving-reactjs",
+  "version": "0.0.0",
+  "description": "aprende Reactjs, ES2015 y webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blackendstudios/diving-reactjs.git"
+  },
+  "keywords": [
+    "react",
+    "reactjs",
+    "webpack",
+    "es6",
+    "es2015"
+  ],
+  "author": "blackend",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/blackendstudios/diving-reactjs/issues"
+  },
+  "homepage": "https://github.com/blackendstudios/diving-reactjs#readme",
+  "dependencies": {
+    "react": "0.14.3",
+    "react-dom": "0.14.3"
+  },
+  "devDependencies": {
+    "babel-core": "6.3.13",
+    "babel-loader": "6.2.0",
+    "babel-preset-es2015": "6.3.13",
+    "babel-preset-react": "6.3.13"
+  }
+}
