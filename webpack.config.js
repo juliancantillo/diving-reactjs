@@ -12,11 +12,7 @@ var config = {
          {
             test: '/\.jsx?$/',
             exclude: '/(node_modules | bower_components)/',
-            loader: 'babel',
-            query: {
-               // all the transformations that babel is going to do in or code
-               presets: ['es2015', 'react']
-            }
+            loader: 'babel'
          }
       ]
    }
