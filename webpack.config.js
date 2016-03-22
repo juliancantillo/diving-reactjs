@@ -11,12 +11,12 @@ var path = require('path'),
    module: {
       loaders: [
          {
-            test: '/\.jsx?$/',
+            test: /\.jsx?$/,
             exclude: '/(node_modules | bower_components)/',
             loader: 'babel-loader'
          },
          {
-            test: '/\.js?$/',
+            test: /\.js?$/,
             exclude: '/(node_modules | bower_components)/',
             loader: 'babel-loader'
          }
